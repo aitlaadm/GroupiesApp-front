@@ -1,0 +1,14 @@
+.Admin{
+    display: flex;
+}
+.userssSide{
+    padding: 25px 10px;
+    display: flex;
+    flex: 0.33;
+}
+.groupsSide{
+    padding: 25px 10px;
+    display: flex;
+    flex: 0.33;
+}
+

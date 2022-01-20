@@ -1,13 +1,26 @@
 .home{
     display: flex;
     flex-direction: column;
-    font-size: medium;
+    font-size: x-large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.home>input{
+.home form>input{
     width: 180px;
     margin: 10px auto;
     display: block;
     height: 20px;
     border-radius:  30px;
+}
+.home form>button{
+    width: 300px;
+    background-color: black;
+    color: blanchedalmond;
+    font-weight: 500;
+}
+
+.home form>button:hover{
+
+    background-color: white;
+    color: black;
+    font-weight: 800;
 }
