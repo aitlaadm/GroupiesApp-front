@@ -1,0 +1,13 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.home>input{
+    width: 180px;
+    margin: 10px auto;
+    display: block;
+    height: 20px;
+    border-radius:  30px;
+}
