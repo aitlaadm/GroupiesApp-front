@@ -12,7 +12,7 @@ function Home() {
         if (username === "admin") {
             history.push('/admin')
         } else if (username !== "admin") {
-            //     history.push('/users')
+            history.push('/user')
             HomeService.addUser(username).catch(err => alert(err))
         } else {
             alert('Veuillez un psuedo !')
